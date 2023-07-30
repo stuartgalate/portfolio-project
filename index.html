@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">  
+    <script src="https://kit.fontawesome.com/4addf9dae0.js" crossorigin="anonymous"></script>    
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>My Portfolio Project</title>
+</head>
+<body>
+   <header>
+    <!-- Navigation -->
+        <section id="home" class="home">
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#aboutMe">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#form">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        <!-- Welcome Page -->
+            <div class="nameHeader">
+                <h1>Stuart Galate</h1>
+                <h3>Toronto based web developer</h3>
+                <button>get in touch</button>
+            </div>
+        </section>
+   </header>
+
+   <main>
+        <!-- About me -->
+        <section id="aboutMe" class="aboutMe">
+            <div class="wrapper">
+                <div class="aboutTitle">
+                    <h2>about me</h2>
+                </div>
+
+                <div class="aboutParagraph">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro dolores vel mollitia, architecto facilis sequi voluptatem distinctio. Dolores veritatis eligendi nisi quas quibusdam quisquam quos a vitae blanditiis! Eveniet, voluptatem.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills">
+            <div class="wrapper">
+                <div class="skillsTitle">
+                    <h2>skills</h2>
+                </div>
+
+                <div class="skillsList">
+                    <ul>
+                        <li><i class="devicon-html5-plain"></i></li>
+                        <li><i class="devicon-css3-plain colored"></i></li>
+                        <li><i class="devicon-sass-original colored"></i></li>
+                        <li><i class="devicon-javascript-plain colored"></i></li>
+                        <li><i class="devicon-react-original colored"></i></li>
+                        <li><i class="devicon-github-original colored"></i></li>
+                        <li><i class="devicon-firebase-plain colored"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="projects">
+            <div class="wrapper">
+                <div class="projectsTitle">
+                    <h2>projects</h2>
+                </div>
+
+                <div class="projectContainer">
+                    <!-- Project 1 -->
+                    <div class="project1">
+                        <div class="projectImg1">
+                            <img src="./assets/project1.png" alt="img1">
+
+                        </div>
+
+                        <div class="project1Text">
+                            <h3>Project 1</h3>
+                            <h4>HTML, CSS, JAVASCRIPT, REACT</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veniam voluptatem maxime pariatur impedit neque porro tenetur ullam? Qui perferendis aspernatur omnis velit soluta consequuntur?</p>
+                        </div>
+
+                        <div class="button">
+                            <button>View live</button>
+                            <button>View code</button>
+                        </div>
+                        
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project2">
+                        <div class="projectImg2">
+                            <img src="./assets/project2.png" alt="img2">
+
+                        </div>
+
+                        <div class="project2Text">
+                            <h3>Project 2</h3>
+                            <h4>HTML, CSS, JAVASCRIPT, REACT</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veniam voluptatem maxime pariatur impedit neque porro tenetur ullam? Qui perferendis aspernatur omnis velit soluta consequuntur?</p>
+                        </div>
+
+                        <div class="button">
+                            <button>View live</button>
+                            <button>View code</button>
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- Project 3 -->
+                    <div class="project3">
+                        <div class="projectImg3">
+                            <img src="./assets/project3.png" alt="img3">
+
+                        </div>
+
+                        <div class="project3Text">
+                            <h3>Project 3</h3>
+                            <h4>HTML, CSS, JAVASCRIPT, REACT</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia veniam voluptatem maxime pariatur impedit neque porro tenetur ullam? Qui perferendis aspernatur omnis velit soluta consequuntur?</p>
+                        </div>
+
+                        <div class="button">
+                            <button>View live</button>
+                            <button>View code</button>
+                        </div>     
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="form" class="form">
+            <div class="wrapper">
+                <div class="contactMeTitle">
+                <h2>get in touch</h2>
+                </div>
+
+                <div class="socialMedia">
+                    <ul>
+                        <li><a href="https://github.com/stuartgalate"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/stuartgalate/"></a><i class="fa-brands fa-github"></i></li>
+                        <li><a href="#"></a><i class="fa-brands fa-twitter"></i></li>
+                        <li><a href=""></a><i class="fa-solid fa-envelope"></i></li>
+                    </ul>
+                </div>
+
+                <div class="form">
+                    <form action="/submit_form.php" method="POST">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required><br>
+                
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required><br>
+                
+                        <label for="message">Message</label><br>
+                        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+                
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+
+            </div>
+
+        </section>
+   </main>
+
+
+    
+</body>
+</html>
