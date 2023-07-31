@@ -9,21 +9,26 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 /* General styling */
 
 button {
-    color:black;
-    background-color: orange;
+    color:white;
+    background-color: #EEA47F;
     padding: 8px 15px;
     border-style: none;
-    border-radius: 15px;
+    border-radius: 25px;
+    width: 200px;
+    transition: background-color 0.5s;
+    font-weight: 800;
 }
 
 button:hover {
-    color: orange;
+    color: #EEA47F;
+    background-color: white;
 }
 
 h2 {
-    font-size: 35px;
-    color: #8EE4AF;
+    font-size: 65px;
+    color: #00539C;
 }
+
 
 /* Header */
 
@@ -33,7 +38,7 @@ body, h1, h2, h3, p, ul, li {
 }
 
 header {
-    background-color: #8EE4AF;
+    background-color: #00539C;
     text-align: center;
 }
 
@@ -57,23 +62,28 @@ header {
 }
 
 .nav a{
+    font-size: 20px;
     text-decoration: none;
     color: white;
 }
 
 .nav a:hover {
-    color: orange;
+    color: #EEA47F;
 }
 
 /* Welcome page */
 
 .nameHeader {
-    padding: 100px;
+    padding: 200px;
     color: white;
 }
 
 .nameHeader h1 {
-    font-size: 50px;
+    font-size: 85px;
+}
+
+.nameHeader h3 {
+    font-size: 35px;
 }
 
 .nameHeader button {
@@ -83,9 +93,90 @@ header {
 /* About me */
 
 .aboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     text-align: center;
-    padding: 100px;
 }
+
+/* Skills */
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-color: #EEA47F;
+}
+
+.skillsTitle {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.skillsList ul {
+    list-style: none; 
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+  }
+
+  .skillsList li {
+    font-size: 50px; /* Adjust the font size to make the list items bigger */
+    margin: 25px ; /* Add some spacing between list items, adjust as needed */
+}
+
+.skillsList li p {
+    font-size: 16px;
+    font-weight: ;
+    color: #00539C;
+    text-align: center;
+}
+
+/* Projects */
+
+/* CSS for the projects section */
+.projects {
+    display: flex;
+    height: 200vh;
+    background-color: red;
+    padding: 30px;
+    text-align: center;
+}
+
+.project1,
+.project2,
+.project3 {
+    display: flex;
+    align-items: center; /* Align children vertically */
+    gap: 20px; /* Spacing between flex items */
+}
+
+.project1Text,
+.project2Text,
+.project3Text {
+    flex: 1;
+}
+
+
+
+.projectImg img {
+    display: flex;
+    width: 600px; 
+    height: auto; 
+}
+
+
+
+
+
+/* Additional styling as needed */
+
+
+
 
 
 
